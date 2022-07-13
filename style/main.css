@@ -1,0 +1,75 @@
+#prel {
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  left: 200px;
+  top: 50%;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+#app {
+  width: 1200px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#app .leftPlace {
+  width: 200px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#app .leftPlace .leftItem {
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#app .leftPlace .leftItem input {
+  display: block;
+}
+
+#app .leftPlace .leftItem span {
+  display: block;
+}
+
+#app .rightPlace {
+  width: 900px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 50px;
+}
+
+#app .rightPlace .bigContent {
+  width: 100%;
+  height: auto;
+}
+
+#app .rightPlace .bigContent .subBigClass {
+  margin-left: 50px;
+}
+/*# sourceMappingURL=main.css.map */

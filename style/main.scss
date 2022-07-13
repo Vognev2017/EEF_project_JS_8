@@ -1,0 +1,65 @@
+#prel {
+    width: 100px;
+    height: 30px;
+    position: fixed;
+    left: 200px;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+#app {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+
+
+    .leftPlace {
+        width: 200px;
+        height: auto;
+        box-sizing: border-box;
+
+
+        .leftItem {
+            width: 200px;
+            height: 30px;
+            border: 1px solid black;
+            display: flex;
+            flex-wrap: nowrap;
+            box-sizing: border-box;
+            justify-content: space-between;
+
+            input {
+                display: block;
+            }
+
+            span {
+                display: block;
+            }
+
+        }
+    }
+
+    .rightPlace {
+        width: 900px;
+        height: auto;
+        box-sizing: border-box;
+        margin-left: 50px;
+
+        .bigContent {
+            width: 100%;
+            height: auto;
+
+            .subBigClass {
+                margin-left: 50px;
+            }
+        }
+    }
+
+}
